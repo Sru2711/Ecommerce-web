@@ -6,7 +6,7 @@ import drawer from "../src/Assets/drawer.png"
 import { useState } from 'react';
 import Navbar from './components/Navbar';
 function App() {
-  const [toggle, setToggle] = useState(true)
+  const [toggle, setToggle] = useState(false)
 
   return (
     <div className="App">
